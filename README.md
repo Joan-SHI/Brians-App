@@ -1,12 +1,13 @@
 ## Setup
 
+Create an .env file with JWT_SECRET="secretgoeshere"
+
 Run the following commands in your terminal:
 
 ```sh
 yarn install
 yarn knex migrate:latest
 yarn knex seed:run
-mv .env_example .env
 ```
 
 To run in development:

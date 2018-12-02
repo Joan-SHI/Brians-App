@@ -12,7 +12,7 @@ const App = ({ auth }) => (
       <div className="hero is-small is-primary">
         <div className="hero-body has-text-centered">
           <Link to="/" className="">
-            <h1 className="title is-1">Auth React Redux Express Boilerplate</h1>
+            <h1 className="title is-1">Brian's App</h1>
           </Link>
           <Nav />
         </div>

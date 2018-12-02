@@ -13908,7 +13908,7 @@ var App = function App(_ref) {
             _react2.default.createElement(
               "h1",
               { className: "title is-1" },
-              "Auth React Redux Express Boilerplate"
+              "Brian's App"
             )
           ),
           _react2.default.createElement(_Nav2.default, null)

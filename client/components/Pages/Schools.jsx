@@ -8,6 +8,8 @@ class Schools extends React.Component {
             school: 'Please select a school below' 
         }
 this.handleClick=this.handleClick.bind(this)
+this.saveButton=this.saveButton.bind(this)
+
 
     }
 
@@ -18,6 +20,10 @@ this.handleClick=this.handleClick.bind(this)
         })
     }
 
+    saveButton(){
+        alert(this.state.school)
+        //i would remove the alert here and save their choice into the database
+    }
 
 
 
@@ -59,7 +65,7 @@ render()  {
   </div>
   </div>
 
-         
+         <button className="button is-link" onClick={this.saveButton}>Save your choice</button>
     
     </div>
 

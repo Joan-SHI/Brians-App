@@ -14958,6 +14958,7 @@ var Schools = function (_React$Component) {
             school: 'Please select a school below'
         };
         _this.handleClick = _this.handleClick.bind(_this);
+        _this.saveButton = _this.saveButton.bind(_this);
 
         return _this;
     }
@@ -14968,6 +14969,12 @@ var Schools = function (_React$Component) {
             this.setState({
                 school: 'You have selected: ' + event.target.name
             });
+        }
+    }, {
+        key: 'saveButton',
+        value: function saveButton() {
+            alert(this.state.school);
+            //i would remove the alert here and save their choice into the database
         }
     }, {
         key: 'render',
@@ -15033,6 +15040,11 @@ var Schools = function (_React$Component) {
                         ),
                         'Kaori Normal School'
                     )
+                ),
+                _react2.default.createElement(
+                    'button',
+                    { className: 'button is-link', onClick: this.saveButton },
+                    'Save your choice'
                 )
             );
         }

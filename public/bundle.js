@@ -14954,11 +14954,22 @@ var Schools = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (Schools.__proto__ || Object.getPrototypeOf(Schools)).call(this, props));
 
-        _this.state = {};
+        _this.state = {
+            school: 'Please select a school below'
+        };
+        _this.handleClick = _this.handleClick.bind(_this);
+
         return _this;
     }
 
     _createClass(Schools, [{
+        key: 'handleClick',
+        value: function handleClick(event) {
+            this.setState({
+                school: 'You have selected: ' + event.target.name
+            });
+        }
+    }, {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
@@ -14969,6 +14980,59 @@ var Schools = function (_React$Component) {
                     { className: 'title is-2' },
                     'Schools for ',
                     this.props.state.auth.user.user_name
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    this.state.school
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'columns' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Khandallah School', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'Khandallah School'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'Ngaio School'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'columns' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'West End School'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'Kaori Normal School'
+                    )
                 )
             );
         }

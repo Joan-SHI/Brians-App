@@ -31,7 +31,12 @@ class Nav extends React.Component {
           <div className="navbar-end">
             {auth.isAuthenticated
               ? [
-                <Link to='/planets' className="navbar-item" to='/planets'>Planets</Link>,
+                <Link  to='/planets' className="navbar-item" to='/planets'>Planets</Link>,
+<Link to='/schools' className="navbar-item" to='/schools'>Schools</Link>,
+<Link to='/friends' className="navbar-item" to='/friends'>Friends</Link>,
+<Link to='/games' className="navbar-item" to='/games'>Games</Link>,
+
+
               <Link to='/shops' className="navbar-item" to='/shops'>Shops</Link>,
               <Link to='/' className="navbar-item" onClick={() => logout()}>Logout</Link>
             ]

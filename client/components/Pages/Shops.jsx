@@ -64,8 +64,8 @@ auth: state.auth
 }
 const mapDispathToProps = dispatch => {
     return {
-        MainForm: data => {
-            return dispatch(MainForm(data));
+        ShopsForm: data => {
+            return dispatch(ShopsForm(data));
         }
     }
 }

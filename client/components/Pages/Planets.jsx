@@ -8,9 +8,8 @@ class Planets extends React.Component {
           planet: 'Please select a planet below'
         }
         this.handleClick = this.handleClick.bind(this)
+        this.saveButton=this.saveButton.bind(this)
     }
-
-  
 
 handleClick(event){
     this.setState({
@@ -18,8 +17,10 @@ handleClick(event){
     })
 }
 
-
-
+saveButton(){
+   //i would remove the alert here and save their choice into the database
+  alert(this.state.planet)
+}
 
 render()  {
     return(
@@ -81,13 +82,13 @@ render()  {
 </figure>
   </div>
 </div>
+<button className="button is-link" onClick={this.saveButton}>Choose your choice</button>
     </div>
 
     )
 }
 }
 
-//what should I return? 
 const mapStateToProps = (state) => {
     return {
 state:state,

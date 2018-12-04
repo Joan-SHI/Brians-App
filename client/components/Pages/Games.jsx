@@ -5,23 +5,67 @@ class Games extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          
+          game: 'Please select a game below'
         }
+        this.handleClick=this.handleClick.bind(this)
+this.saveButton=this.saveButton.bind(this)
     }
 
+handleClick(event){
+        this.setState({
+            game: 'You have selected: ' + event.target.name
+        })
+    }
   
-
-
-
-
+    saveButton(){
+        alert(this.state.game)
+        //i would remove the alert here and save their choice into the database
+    }
 
 
 render()  {
     return(
-        <div>
+        <div className="container">
 
           {this.props.auth.isAuthenticated && 
         <h4 className="title is-2">Games for {this.props.state.auth.user.user_name}</h4>}
+    <p>{this.state.game}</p>
+
+<div className="columns">
+
+<div className="column">
+<figure class="image is-128x128">
+<img name="Minecraft" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+</figure>
+  Minecraft
+</div>
+
+<div className="column">
+<figure class="image is-128x128">
+<img name="ROBLOX" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+</figure>
+  ROBLOX
+</div>
+</div>
+
+<div className="columns">
+<div className="column">
+<figure class="image is-128x128">
+<img name="Duolingo" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+</figure>
+  Duolingo
+</div>
+
+<div className="column">
+<figure class="image is-128x128">
+<img name="PlayKids" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+</figure>
+  PlayKids
+</div>
+
+</div>
+
+       <button className="button is-link" onClick={this.saveButton}>Save your choice</button>
     
     </div>
 
@@ -29,7 +73,7 @@ render()  {
 }
 }
 
-//what should I return? 
+
 const mapStateToProps = (state) => {
     return {
 state:state,

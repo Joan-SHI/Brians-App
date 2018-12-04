@@ -38,14 +38,14 @@ render()  {
 
   <div className="column">
   <figure class="image is-128x128">
-  <img name="Khandallah School" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Khandallah School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
     Khandallah School
   </div>
 
   <div className="column">
 <figure class="image is-128x128">
-  <img name="Ngaio School" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Ngaio School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
     Ngaio School
   </div>
@@ -54,14 +54,14 @@ render()  {
   <div className="columns">
   <div className="column">
   <figure class="image is-128x128">
-  <img name="West End School" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="West End School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
     West End School
   </div>
 
   <div className="column">
   <figure class="image is-128x128">
-  <img name="Kaori Normal School" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Kaori Normal School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
     Kaori Normal School
   </div>

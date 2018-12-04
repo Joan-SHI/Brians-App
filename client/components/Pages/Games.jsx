@@ -35,14 +35,14 @@ render()  {
 
 <div className="column">
 <figure class="image is-128x128">
-<img name="Minecraft" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="Minecraft" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
   Minecraft
 </div>
 
 <div className="column">
 <figure class="image is-128x128">
-<img name="ROBLOX" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="ROBLOX" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
   ROBLOX
 </div>
@@ -51,14 +51,14 @@ render()  {
 <div className="columns">
 <div className="column">
 <figure class="image is-128x128">
-<img name="Duolingo" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="Duolingo" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
   Duolingo
 </div>
 
 <div className="column">
 <figure class="image is-128x128">
-<img name="PlayKids" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="PlayKids" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
 </figure>
   PlayKids
 </div>

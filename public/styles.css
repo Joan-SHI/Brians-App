@@ -16,3 +16,19 @@
 #planet {
     margin-bottom: 5%;
 }
+
+#school:hover {
+    transform: scale(1.1);
+    border: 1px solid grey;
+    
+}
+
+#game:hover {
+    transform: scale(1.1);
+    border: 1px solid grey;
+}
+
+#shop:hover {
+    transform: scale(1.1);
+    border: 1px solid grey;
+}

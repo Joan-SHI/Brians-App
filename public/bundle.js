@@ -14830,7 +14830,7 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Minecraft', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Minecraft', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'Minecraft'
                     ),
@@ -14840,7 +14840,7 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'ROBLOX', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'ROBLOX', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'ROBLOX'
                     )
@@ -14854,7 +14854,7 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Duolingo', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Duolingo', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'Duolingo'
                     ),
@@ -14864,7 +14864,7 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'PlayKids', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'PlayKids', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'PlayKids'
                     )
@@ -15222,7 +15222,7 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Khandallah School', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Khandallah School', id: 'school', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'Khandallah School'
                     ),
@@ -15232,7 +15232,7 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Ngaio School', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Ngaio School', id: 'school', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'Ngaio School'
                     )
@@ -15246,7 +15246,7 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'West End School', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'West End School', id: 'school', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'West End School'
                     ),
@@ -15256,7 +15256,7 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Kaori Normal School', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Kaori Normal School', id: 'school', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'Kaori Normal School'
                     )
@@ -15310,8 +15310,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(4);
@@ -15322,15 +15320,11 @@ var _reactRedux = __webpack_require__(11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-//import { MainForm } from '../actions/MainForm'
 
 var Shops = function (_React$Component) {
     _inherits(Shops, _React$Component);
@@ -15341,48 +15335,96 @@ var Shops = function (_React$Component) {
         var _this = _possibleConstructorReturn(this, (Shops.__proto__ || Object.getPrototypeOf(Shops)).call(this, props));
 
         _this.state = {
-            planet: '',
-            school: '',
-            friend: '',
-            game: '',
-            shop: ''
+            shop: 'Please select a shop below'
         };
-
         _this.handleClick = _this.handleClick.bind(_this);
-        _this.handleChange = _this.handleChange.bind(_this);
+        _this.saveButton = _this.saveButton.bind(_this);
+
         return _this;
     }
 
     _createClass(Shops, [{
-        key: 'handleChange',
-        value: function handleChange(e) {
-            this.setState(_extends({}, this.state, _defineProperty({}, e.target.name, e.target.value)));
+        key: 'handleClick',
+        value: function handleClick(event) {
+            this.setState({
+                shop: 'You have selected: ' + event.target.name
+            });
         }
     }, {
-        key: 'handleClick',
-        value: function handleClick(e) {
-            e.preventDefault();
-            var data = {
-                planet: planet,
-                school: school,
-                friend: friend,
-                game: game,
-                shop: shop
-            };
-
-            this.props.MainForm(data);
+        key: 'saveButton',
+        value: function saveButton() {
+            alert(this.state.shop);
+            //i would remove the alert here and save their choice into the database
         }
     }, {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                null,
+                { className: 'container' },
                 this.props.auth.isAuthenticated && _react2.default.createElement(
                     'h4',
                     { className: 'title is-2' },
                     'Shops for ',
                     this.props.state.auth.user.user_name
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    this.state.shop
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'columns' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Toy World', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'Toy World'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Whitcoulls', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'Whitcoulls'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'columns' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'New World', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'New World'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'column' },
+                        _react2.default.createElement(
+                            'figure',
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'St Pierre\'s Sushi', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                        ),
+                        'St Pierre\'s Sushi'
+                    )
+                ),
+                _react2.default.createElement(
+                    'button',
+                    { className: 'button is-link', onClick: this.saveButton },
+                    'Save your choice'
                 )
             );
         }
@@ -15390,9 +15432,6 @@ var Shops = function (_React$Component) {
 
     return Shops;
 }(_react2.default.Component);
-
-//what should I return? 
-
 
 var mapStateToProps = function mapStateToProps(state) {
     return {
@@ -15402,18 +15441,18 @@ var mapStateToProps = function mapStateToProps(state) {
 };
 var mapDispathToProps = function mapDispathToProps(dispatch) {
     return {
-        ShopsForm: function (_ShopsForm) {
-            function ShopsForm(_x) {
-                return _ShopsForm.apply(this, arguments);
+        ShopForm: function (_ShopForm) {
+            function ShopForm(_x) {
+                return _ShopForm.apply(this, arguments);
             }
 
-            ShopsForm.toString = function () {
-                return _ShopsForm.toString();
+            ShopForm.toString = function () {
+                return _ShopForm.toString();
             };
 
-            return ShopsForm;
+            return ShopForm;
         }(function (data) {
-            return dispatch(ShopsForm(data));
+            return dispatch(ShopForm(data));
         })
     };
 };

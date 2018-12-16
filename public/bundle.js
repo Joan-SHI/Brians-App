@@ -14989,7 +14989,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Mercury', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Mercury', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/keoyt3k' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15003,7 +15003,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Mars', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Mars', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y9zh5tan' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15017,7 +15017,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Earth', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Earth', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y7ct6z6j' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15031,7 +15031,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Saturn', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Saturn', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y7ha44nq' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15049,7 +15049,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Jupiter', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Jupiter', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/pzpn76p' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15063,7 +15063,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Venus', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Venus', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y8pvt65j' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15077,7 +15077,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Uranus', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Uranus', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y937toa9' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15091,7 +15091,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Neptune', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Neptune', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/ydhdfk67' }),
               ' ',
               _react2.default.createElement(
                 'p',

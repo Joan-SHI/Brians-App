@@ -33,25 +33,25 @@ render()  {
 <div id="planetsRowOne" className="columns">
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Mercury" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Mercury" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/keoyt3k"/>
   <p>Mercury</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Mars" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Mars" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y9zh5tan"/>
   <p>Mars</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Earth" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Earth" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y7ct6z6j"/>
   <p>Earth</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Saturn" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Saturn" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y7ha44nq"/>
   <p>Saturn</p>
 </figure>
   </div>
@@ -60,25 +60,25 @@ render()  {
 <div id="planetsRowTwo" className="columns">
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Jupiter" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Jupiter" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/pzpn76p"/>
   <p>Jupiter</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Venus" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Venus" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y8pvt65j"/>
   <p>Venus</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Uranus" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Uranus" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y937toa9"/>
   <p>Uranus</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Neptune" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/> <p>Neptune</p>
+  <img name="Neptune" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/ydhdfk67"/> <p>Neptune</p>
 </figure>
   </div>
 </div>

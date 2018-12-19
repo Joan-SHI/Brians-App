@@ -38,7 +38,7 @@ render()  {
 
   <div className="column">
   <figure class="image is-128x128">
-  <img name="Khandallah School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Khandallah School" id="school" onClick={this.handleClick} src="http://khandallah.school.nz/wp-content/uploads/2015/04/logo.png" />
 </figure>
     Khandallah School
   </div>

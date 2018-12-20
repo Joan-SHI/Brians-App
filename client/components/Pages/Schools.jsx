@@ -45,7 +45,7 @@ render()  {
 
   <div className="column">
 <figure class="image is-128x128">
-  <img name="Ngaio School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Ngaio School" id="school" onClick={this.handleClick} src="http://www.ngaio.school.nz/sites/all/themes/converge/logo.png" />
 </figure>
     Ngaio School
   </div>

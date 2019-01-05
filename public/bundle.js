@@ -15246,7 +15246,7 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'West End School', id: 'school', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'West End School', id: 'school', onClick: this.handleClick, src: 'https://tinyurl.com/ydan3ev3' })
                         ),
                         'West End School'
                     ),
@@ -15256,9 +15256,9 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Kaori Normal School', id: 'school', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Cardinal McKeefry School', id: 'school', onClick: this.handleClick, src: 'https://tinyurl.com/y7shk42j' })
                         ),
-                        'Kaori Normal School'
+                        'Cardinal McKeefry School'
                     )
                 ),
                 _react2.default.createElement(

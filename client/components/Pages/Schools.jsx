@@ -54,16 +54,16 @@ render()  {
   <div className="columns">
   <div className="column">
   <figure class="image is-128x128">
-  <img name="West End School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="West End School" id="school" onClick={this.handleClick} src="https://tinyurl.com/ydan3ev3" />
 </figure>
     West End School
   </div>
 
   <div className="column">
   <figure class="image is-128x128">
-  <img name="Kaori Normal School" id="school" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Cardinal McKeefry School" id="school" onClick={this.handleClick} src="https://tinyurl.com/y7shk42j" />
 </figure>
-    Kaori Normal School
+    Cardinal McKeefry School
   </div>
 
   </div>
@@ -72,7 +72,7 @@ render()  {
     
     </div>
 
-    )
+    )  
 }
 }
 

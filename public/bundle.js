@@ -14809,7 +14809,7 @@ var Games = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                { className: 'container' },
+                { 'class': 'container' },
                 this.props.auth.isAuthenticated && _react2.default.createElement(
                     'h4',
                     { className: 'title is-2' },
@@ -14829,8 +14829,8 @@ var Games = function (_React$Component) {
                         { className: 'column' },
                         _react2.default.createElement(
                             'figure',
-                            { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Minecraft', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            { className: 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Minecraft', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/y9opdx7j' })
                         ),
                         'Minecraft'
                     ),
@@ -14839,7 +14839,7 @@ var Games = function (_React$Component) {
                         { className: 'column' },
                         _react2.default.createElement(
                             'figure',
-                            { 'class': 'image is-128x128' },
+                            { className: 'image is-128x128' },
                             _react2.default.createElement('img', { name: 'ROBLOX', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'ROBLOX'
@@ -14863,7 +14863,7 @@ var Games = function (_React$Component) {
                         { className: 'column' },
                         _react2.default.createElement(
                             'figure',
-                            { 'class': 'image is-128x128' },
+                            { className: 'image is-128x128' },
                             _react2.default.createElement('img', { name: 'PlayKids', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
                         ),
                         'PlayKids'

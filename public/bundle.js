@@ -14840,7 +14840,7 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { className: 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'ROBLOX', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'ROBLOX', id: 'game', onClick: this.handleClick, src: 'https://t5.rbxcdn.com/a01f9bbe42e4b6259ed34e4719dc61e8' })
                         ),
                         'ROBLOX'
                     )

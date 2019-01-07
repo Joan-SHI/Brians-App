@@ -42,7 +42,7 @@ render()  {
 
 <div className="column">
 <figure className="image is-128x128">
-<img name="ROBLOX" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="ROBLOX" id="game" onClick={this.handleClick} src="https://t5.rbxcdn.com/a01f9bbe42e4b6259ed34e4719dc61e8" />
 </figure>
   ROBLOX
 </div>

@@ -54,9 +54,9 @@ render()  {
   <div className="columns">
   <div className="column">
   <figure class="image is-128x128">
-  <img name="West End School" id="school" onClick={this.handleClick} src="https://tinyurl.com/ydan3ev3" />
+  <img name="Cashmere Avenue School" id="school" onClick={this.handleClick} src="https://tinyurl.com/yb9w9qhp" />
 </figure>
-    West End School
+    Cashmere Avenue School
   </div>
 
   <div className="column">

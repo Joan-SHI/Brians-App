@@ -25,7 +25,7 @@ handleClick(event){
 
 render()  {
     return(
-        <div class="container">
+        <div className="container">
 
           {this.props.auth.isAuthenticated && 
         <h4 className="title is-2">Games for {this.props.state.auth.user.user_name}</h4>}
@@ -51,16 +51,16 @@ render()  {
 <div className="columns">
 <div className="column">
 <figure class="image is-128x128">
-<img name="Duolingo" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="Duolingo" id="game" onClick={this.handleClick} src="https://tinyurl.com/y7cvzerk" />
 </figure>
   Duolingo
 </div>
 
 <div className="column">
 <figure className="image is-128x128">
-<img name="PlayKids" id="game" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+<img name="Khan Academy Kids" id="game" onClick={this.handleClick} src="https://tinyurl.com/ybqxkyep" />
 </figure>
-  PlayKids
+  Khan Academy Kids
 </div>
 
 </div>

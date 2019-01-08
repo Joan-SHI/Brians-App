@@ -14697,11 +14697,11 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'lisa', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Eddie', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
               _react2.default.createElement(
                 'p',
                 null,
-                'lisa'
+                'Eddie'
               )
             )
           ),
@@ -14809,7 +14809,7 @@ var Games = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                { 'class': 'container' },
+                { className: 'container' },
                 this.props.auth.isAuthenticated && _react2.default.createElement(
                     'h4',
                     { className: 'title is-2' },
@@ -14854,7 +14854,7 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Duolingo', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Duolingo', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/y7cvzerk' })
                         ),
                         'Duolingo'
                     ),
@@ -14864,9 +14864,9 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { className: 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'PlayKids', id: 'game', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
+                            _react2.default.createElement('img', { name: 'Khan Academy Kids', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/ybqxkyep' })
                         ),
-                        'PlayKids'
+                        'Khan Academy Kids'
                     )
                 ),
                 _react2.default.createElement(
@@ -15246,9 +15246,9 @@ var Schools = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'West End School', id: 'school', onClick: this.handleClick, src: 'https://tinyurl.com/ydan3ev3' })
+                            _react2.default.createElement('img', { name: 'Cashmere Avenue School', id: 'school', onClick: this.handleClick, src: 'https://tinyurl.com/yb9w9qhp' })
                         ),
-                        'West End School'
+                        'Cashmere Avenue School'
                     ),
                     _react2.default.createElement(
                         'div',

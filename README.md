@@ -1,3 +1,12 @@
+## Full Stack (React-Redux-Auth-Express with Bulma Framework)
+Project Purpose:
+Design for school age kids, combine the following knowlege into this App 
+-Solar System
+-Local School
+-Social 
+-Educational Games
+-Local Shops
+
 ## Setup
 
 Create an .env file with JWT_SECRET="secretgoeshere"

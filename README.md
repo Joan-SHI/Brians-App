@@ -1,6 +1,6 @@
 ## Full Stack (React-Redux-Auth-Express with Bulma Framework)
 Project Purpose:
-Design for school age kids, combine the following knowlege into this App 
+Design for school age kids, combine the following information into this App 
 -Solar System
 -Local School
 -Friends 

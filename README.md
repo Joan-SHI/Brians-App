@@ -3,7 +3,7 @@ Project Purpose:
 Design for school age kids, combine the following knowlege into this App 
 -Solar System
 -Local School
--Social 
+-Friends 
 -Educational Games
 -Local Shops
 

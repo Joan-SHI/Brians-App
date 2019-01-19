@@ -1,4 +1,4 @@
-## Full Stack (React-Redux-Auth-Express with Bulma Framework)
+## Full Stack (React-Redux-Auth-Thunk-Express-Knex-SQL with Bulma Framework)
 Project Purpose:
 Design for school age kids, combine the following information into this App 
 -Solar System

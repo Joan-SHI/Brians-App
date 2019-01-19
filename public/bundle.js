@@ -14627,7 +14627,7 @@ var Friends = function (_React$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'Nat'
+                'Nate'
               )
             )
           ),
@@ -14701,7 +14701,7 @@ var Friends = function (_React$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'Eddie'
+                'Addi'
               )
             )
           ),

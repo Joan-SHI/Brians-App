@@ -39,7 +39,7 @@ render()  {
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Nat" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Nate" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
   <p>Nate</p>
 </figure>
   </div>
@@ -66,13 +66,13 @@ render()  {
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Siena" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
-  <p>Siena</p>
+  <img name="Sienna" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <p>Sienna</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Eddie" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Addi" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
   <p>Addi</p>
 </figure>
   </div>

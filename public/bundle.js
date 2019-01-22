@@ -14623,7 +14623,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Nat', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Nate', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14683,11 +14683,11 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Siena', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Sienna', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
               _react2.default.createElement(
                 'p',
                 null,
-                'Siena'
+                'Sienna'
               )
             )
           ),
@@ -14697,7 +14697,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Eddie', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Addi', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
               _react2.default.createElement(
                 'p',
                 null,

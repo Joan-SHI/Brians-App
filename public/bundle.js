@@ -14319,36 +14319,6 @@ var Main = function (_React$Component) {
                     'form',
                     { className: 'form box' },
                     _react2.default.createElement('hr', null),
-                    _react2.default.createElement(
-                        'label',
-                        { className: 'label is-large has-text-centered' },
-                        'Add Planet to live',
-                        _react2.default.createElement('input', _defineProperty({ required: true, className: 'input has-text-centered is-large is-fullwidth', placeholder: 'Planet', type: 'text', onChange: this.handleChange, name: 'planet' }, 'onChange', this.updateDetails))
-                    ),
-                    _react2.default.createElement(
-                        'label',
-                        { className: 'label is-large has-text-centered' },
-                        'Add School to study',
-                        _react2.default.createElement('input', _defineProperty({ required: true, className: 'input has-text-centered is-large is-fullwidth', placeholder: 'School', type: 'text', onChange: this.handleChange, name: 'school' }, 'onChange', this.updateDetails))
-                    ),
-                    _react2.default.createElement(
-                        'label',
-                        { className: 'label is-large has-text-centered' },
-                        'Choose Friends',
-                        _react2.default.createElement('input', _defineProperty({ required: true, className: 'input has-text-centered is-large is-fullwidth', placeholder: 'friend', type: 'text', onChange: this.handleChange, name: 'friend' }, 'onChange', this.updateDetails))
-                    ),
-                    _react2.default.createElement(
-                        'label',
-                        { className: 'label is-large has-text-centered' },
-                        'Choose Games',
-                        _react2.default.createElement('input', _defineProperty({ required: true, className: 'input has-text-centered is-large is-fullwidth', placeholder: 'game', type: 'text', onChange: this.handleChange, name: 'game' }, 'onChange', this.updateDetails))
-                    ),
-                    _react2.default.createElement(
-                        'label',
-                        { className: 'label is-large has-text-centered' },
-                        'Add Shops',
-                        _react2.default.createElement('input', _defineProperty({ required: true, className: 'input has-text-centered is-large is-fullwidth', placeholder: 'shop', type: 'text', onChange: this.handleChange, name: 'shop' }, 'onChange', this.updateDetails))
-                    ),
                     _react2.default.createElement('input', { className: 'button is-large is-fullwidth is-success', value: 'Start', type: 'submit', onClick: this.handleClick })
                 )
             );

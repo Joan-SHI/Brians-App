@@ -52,7 +52,7 @@ render()  {
         <hr />
         {/* {auth.errorMessage && <span className="has-text-danger is-large">{auth.errorMessage}</span>} */}
 
-        <label className="label is-large has-text-centered">Add Planet to live
+        {/* <label className="label is-large has-text-centered">Add Planet to live
           <input required className="input has-text-centered is-large is-fullwidth" placeholder="Planet" type="text" onChange={this.handleChange} name="planet" onChange={this.updateDetails} />
         </label>
 
@@ -70,7 +70,7 @@ render()  {
 
         <label className="label is-large has-text-centered">Add Shops
           <input required className="input has-text-centered is-large is-fullwidth" placeholder="shop" type="text" onChange={this.handleChange} name="shop" onChange={this.updateDetails} />
-        </label>
+        </label> */}
         <input className="button is-large is-fullwidth is-success" value='Start' type="submit" onClick={this.handleClick} />
     </form>
     </div>

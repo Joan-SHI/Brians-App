@@ -33,8 +33,11 @@ yarn start
   - or -
 npm start
 ```
+         
+## Notes from Joan    
+:arrow_right_hook: Very handy to enter a long URL to make tiny: https://tinyurl.com/create.php
 
-
+    
 ## Heroku!!!
 
 ### Creating your app

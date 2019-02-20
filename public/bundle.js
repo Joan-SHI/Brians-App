@@ -14579,7 +14579,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Elise', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Elise', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y4jvwudx' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14593,7 +14593,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Nate', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Nate', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y4mmwfw2' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14607,7 +14607,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Charlie', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Charlie', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y67zgjo7' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14621,7 +14621,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Brian', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Brian', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y5vynwqb' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14639,7 +14639,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Ben', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Ben', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y6laqnbw' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14653,7 +14653,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Sienna', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Sienna', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://i.gifer.com/PVDZ.gif' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14667,7 +14667,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Addi', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Addi', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y46mkn5h' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -14681,7 +14681,7 @@ var Friends = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Natasha', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://bulma.io/images/placeholders/128x128.png' }),
+              _react2.default.createElement('img', { name: 'Natasha', onClick: this.handleClick, id: 'friend', className: 'is-rounded', src: 'https://tinyurl.com/y5wpjgww' }),
               _react2.default.createElement(
                 'p',
                 null,

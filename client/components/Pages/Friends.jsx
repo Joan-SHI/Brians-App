@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
+
 class Friends extends React.Component {
     constructor(props) {
         super(props);
@@ -33,26 +34,26 @@ render()  {
 <div id="planetsRowOne" className="columns">
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Elise" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Elise" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y4jvwudx"/>
   <p>Elise</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Nate" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Nate" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y4mmwfw2"/>
   <p>Nate</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Charlie" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Charlie" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y67zgjo7"/>
   <p>Charlie</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Brian" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
-  <p>Joan</p>
+  <img name="Brian" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y5vynwqb"/>
+  <p>Brian</p>
 </figure>
   </div>
 </div>
@@ -60,25 +61,25 @@ render()  {
 <div id="planetsRowTwo" className="columns">
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Ben" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Ben" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y6laqnbw"/>
   <p>Ben</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Sienna" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Sienna" onClick={this.handleClick} id="friend" className="is-rounded" src="https://i.gifer.com/PVDZ.gif"/>
   <p>Sienna</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Addi" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/>
+  <img name="Addi" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y46mkn5h"/>
   <p>Addi</p>
 </figure>
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Natasha" onClick={this.handleClick} id="planet" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png"/> 
+  <img name="Natasha" onClick={this.handleClick} id="friend" className="is-rounded" src="https://tinyurl.com/y5wpjgww"/> 
   <p>Natasha</p>
 </figure>
   </div>

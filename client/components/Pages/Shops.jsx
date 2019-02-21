@@ -35,32 +35,34 @@ render()  {
 
   <div className="column">
   <figure class="image is-128x128">
-  <img name="Toy World" id="shop" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Toy World" id="shop" onClick={this.handleClick} src="https://tinyurl.com/yxkofeg8" />
+<p> Toy World</p>
 </figure>
-    Toy World
   </div>
 
   <div className="column">
 <figure class="image is-128x128">
-  <img name="Whitcoulls" id="shop" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="Whitcoulls" id="shop" onClick={this.handleClick} src="https://tinyurl.com/yyrfkxoa" />
+  <p> Whitcoulls</p>
 </figure>
-    Whitcoulls
+    
   </div>
   </div>
 
   <div className="columns">
   <div className="column">
   <figure class="image is-128x128">
-  <img name="New World" id="shop" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
-</figure>
-    New World
+  <img name="New World" id="shop" onClick={this.handleClick} src="https://tinyurl.com/y2ourl5k" />
+  <p>New World</p>
+</figure> 
   </div>
 
   <div className="column">
   <figure class="image is-128x128">
-  <img name="St Pierre's Sushi" id="shop" onClick={this.handleClick} src="https://bulma.io/images/placeholders/128x128.png" />
+  <img name="St Pierre's Sushi" id="shop" onClick={this.handleClick} src="https://tinyurl.com/y5zx73bl" />
+  <p>St Pierre's Sushi</p>
 </figure>
-    St Pierre's Sushi
+    
   </div>
 
   </div>

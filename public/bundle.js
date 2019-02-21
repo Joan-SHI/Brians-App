@@ -15352,9 +15352,13 @@ var Shops = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Toy World', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
-                        ),
-                        'Toy World'
+                            _react2.default.createElement('img', { name: 'Toy World', id: 'shop', onClick: this.handleClick, src: 'https://tinyurl.com/yxkofeg8' }),
+                            _react2.default.createElement(
+                                'p',
+                                null,
+                                ' Toy World'
+                            )
+                        )
                     ),
                     _react2.default.createElement(
                         'div',
@@ -15362,9 +15366,13 @@ var Shops = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Whitcoulls', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
-                        ),
-                        'Whitcoulls'
+                            _react2.default.createElement('img', { name: 'Whitcoulls', id: 'shop', onClick: this.handleClick, src: 'https://tinyurl.com/yyrfkxoa' }),
+                            _react2.default.createElement(
+                                'p',
+                                null,
+                                ' Whitcoulls'
+                            )
+                        )
                     )
                 ),
                 _react2.default.createElement(
@@ -15376,9 +15384,13 @@ var Shops = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'New World', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
-                        ),
-                        'New World'
+                            _react2.default.createElement('img', { name: 'New World', id: 'shop', onClick: this.handleClick, src: 'https://tinyurl.com/y2ourl5k' }),
+                            _react2.default.createElement(
+                                'p',
+                                null,
+                                'New World'
+                            )
+                        )
                     ),
                     _react2.default.createElement(
                         'div',
@@ -15386,9 +15398,13 @@ var Shops = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'St Pierre\'s Sushi', id: 'shop', onClick: this.handleClick, src: 'https://bulma.io/images/placeholders/128x128.png' })
-                        ),
-                        'St Pierre\'s Sushi'
+                            _react2.default.createElement('img', { name: 'St Pierre\'s Sushi', id: 'shop', onClick: this.handleClick, src: 'https://tinyurl.com/y5zx73bl' }),
+                            _react2.default.createElement(
+                                'p',
+                                null,
+                                'St Pierre\'s Sushi'
+                            )
+                        )
                     )
                 ),
                 _react2.default.createElement(

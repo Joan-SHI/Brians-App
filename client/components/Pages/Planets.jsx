@@ -51,7 +51,7 @@ render()  {
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Saturn" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y7ha44nq"/>
+  <img name="Saturn" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y3ad8nx8"/>
   <p>Saturn</p>
 </figure>
   </div>
@@ -72,7 +72,7 @@ render()  {
   </div>
   <div className="column">
   <figure className="image is-128x128">
-  <img name="Uranus" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y937toa9"/>
+  <img name="Uranus" onClick={this.handleClick} id="planet" className="is-rounded" src="https://tinyurl.com/y536v4jt"/>
   <p>Uranus</p>
 </figure>
   </div>

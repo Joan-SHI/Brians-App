@@ -15001,7 +15001,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Saturn', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y7ha44nq' }),
+              _react2.default.createElement('img', { name: 'Saturn', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y3ad8nx8' }),
               _react2.default.createElement(
                 'p',
                 null,
@@ -15047,7 +15047,7 @@ var Planets = function (_React$Component) {
             _react2.default.createElement(
               'figure',
               { className: 'image is-128x128' },
-              _react2.default.createElement('img', { name: 'Uranus', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y937toa9' }),
+              _react2.default.createElement('img', { name: 'Uranus', onClick: this.handleClick, id: 'planet', className: 'is-rounded', src: 'https://tinyurl.com/y536v4jt' }),
               _react2.default.createElement(
                 'p',
                 null,

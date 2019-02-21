@@ -31,40 +31,39 @@ render()  {
         <h4 className="title is-2">Games for {this.props.state.auth.user.user_name}</h4>}
     <p>{this.state.game}</p>
 
-<div className="columns">
+    <div className="columns">
 
 <div className="column">
-<figure className="image is-128x128">
-<img name="Minecraft" id="game" onClick={this.handleClick} src="https://tinyurl.com/y9opdx7j" />
+<figure class="image is-128x128">
+<img name="Khan Academy Kids" id="game" onClick={this.handleClick} src="https://tinyurl.com/y42ztevv" />
 </figure>
-  Minecraft
+Khan Academy Kids
 </div>
 
 <div className="column">
-<figure className="image is-128x128">
-<img name="ROBLOX" id="game" onClick={this.handleClick} src="https://t5.rbxcdn.com/a01f9bbe42e4b6259ed34e4719dc61e8" />
+<figure class="image is-128x128">
+<img name="Duolingo" id="game" onClick={this.handleClick} src="https://tinyurl.com/yxz8lx5d" />
 </figure>
-  ROBLOX
+Duolingo
 </div>
 </div>
 
 <div className="columns">
 <div className="column">
 <figure class="image is-128x128">
-<img name="Duolingo" id="game" onClick={this.handleClick} src="https://tinyurl.com/y7cvzerk" />
+<img name="ROBLOX" id="game" onClick={this.handleClick} src="https://tinyurl.com/y4qzmgoj" />
 </figure>
-  Duolingo
+ROBLOX
 </div>
 
 <div className="column">
-<figure className="image is-128x128">
-<img name="Khan Academy Kids" id="game" onClick={this.handleClick} src="https://tinyurl.com/ybqxkyep" />
+<figure class="image is-128x128">
+<img name="Minecraft" id="game" onClick={this.handleClick} src="https://tinyurl.com/yxn7p6nd" />
 </figure>
-  Khan Academy Kids
+Minecraft
 </div>
 
 </div>
-
        <button className="button is-link" onClick={this.saveButton}>Save your choice</button>
     
     </div>

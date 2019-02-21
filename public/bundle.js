@@ -14799,20 +14799,20 @@ var Games = function (_React$Component) {
                         { className: 'column' },
                         _react2.default.createElement(
                             'figure',
-                            { className: 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Minecraft', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/y9opdx7j' })
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Khan Academy Kids', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/y42ztevv' })
                         ),
-                        'Minecraft'
+                        'Khan Academy Kids'
                     ),
                     _react2.default.createElement(
                         'div',
                         { className: 'column' },
                         _react2.default.createElement(
                             'figure',
-                            { className: 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'ROBLOX', id: 'game', onClick: this.handleClick, src: 'https://t5.rbxcdn.com/a01f9bbe42e4b6259ed34e4719dc61e8' })
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Duolingo', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/yxz8lx5d' })
                         ),
-                        'ROBLOX'
+                        'Duolingo'
                     )
                 ),
                 _react2.default.createElement(
@@ -14824,19 +14824,19 @@ var Games = function (_React$Component) {
                         _react2.default.createElement(
                             'figure',
                             { 'class': 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Duolingo', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/y7cvzerk' })
+                            _react2.default.createElement('img', { name: 'ROBLOX', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/y4qzmgoj' })
                         ),
-                        'Duolingo'
+                        'ROBLOX'
                     ),
                     _react2.default.createElement(
                         'div',
                         { className: 'column' },
                         _react2.default.createElement(
                             'figure',
-                            { className: 'image is-128x128' },
-                            _react2.default.createElement('img', { name: 'Khan Academy Kids', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/ybqxkyep' })
+                            { 'class': 'image is-128x128' },
+                            _react2.default.createElement('img', { name: 'Minecraft', id: 'game', onClick: this.handleClick, src: 'https://tinyurl.com/yxn7p6nd' })
                         ),
-                        'Khan Academy Kids'
+                        'Minecraft'
                     )
                 ),
                 _react2.default.createElement(

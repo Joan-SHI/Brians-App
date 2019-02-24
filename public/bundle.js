@@ -14241,8 +14241,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(4);
@@ -14253,58 +14251,60 @@ var _reactRedux = __webpack_require__(11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-//import { MainForm } from '../actions/MainForm'
+// I haven't decided what the main page would be. Had better leave codes here for future reference.
 
 var Main = function (_React$Component) {
     _inherits(Main, _React$Component);
 
-    function Main(props) {
+    function Main() {
         _classCallCheck(this, Main);
 
-        var _this = _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
-
-        _this.state = {
-            planet: '',
-            school: '',
-            friend: '',
-            game: '',
-            shop: ''
-        };
-
-        _this.handleClick = _this.handleClick.bind(_this);
-        _this.handleChange = _this.handleChange.bind(_this);
-        return _this;
+        return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
     }
 
     _createClass(Main, [{
-        key: 'handleChange',
-        value: function handleChange(e) {
-            this.setState(_extends({}, this.state, _defineProperty({}, e.target.name, e.target.value)));
-        }
-    }, {
-        key: 'handleClick',
-        value: function handleClick(e) {
-            e.preventDefault();
-            var data = {
-                planet: planet,
-                school: school,
-                friend: friend,
-                game: game,
-                shop: shop
-            };
-
-            this.props.MainForm(data);
-        }
-    }, {
         key: 'render',
+
+        // constructor(props) {
+        //     super(props);
+        //     this.state = {
+        //         planet: '',
+        //         school: '',
+        //         friend: '',
+        //         game: '',
+        //         shop: ''
+        //     }
+
+        //     this.handleClick = this.handleClick.bind(this)
+        //     this.handleChange = this.handleChange.bind(this)
+        // }
+
+        // handleChange(e) {
+        //     this.setState({
+        //         ...this.state,
+        //         [e.target.name]: e.target.value
+        //     })
+        // }
+
+        // handleClick(e) {
+        //     e.preventDefault();
+        //     const data = {
+        //         planet,
+        //         school,
+        //         friend,
+        //         game,
+        //         shop
+        //     }
+
+        //     this.props.MainForm(data)
+        // }
+
         value: function render() {
             return _react2.default.createElement(
                 'div',
@@ -14313,23 +14313,16 @@ var Main = function (_React$Component) {
                     'h4',
                     { className: 'title is-2' },
                     'Welcome ',
-                    this.props.state.auth.user.user_name
+                    this.props.state.auth.user.user_name,
+                    ' :)'
                 ),
-                _react2.default.createElement(
-                    'form',
-                    { className: 'form box' },
-                    _react2.default.createElement('hr', null),
-                    _react2.default.createElement('input', { className: 'button is-large is-fullwidth is-success', value: 'Start', type: 'submit', onClick: this.handleClick })
-                )
+                _react2.default.createElement('input', { className: 'button is-large is-halfwidth is-primary', value: 'Click Navbar to explore!', type: 'submit', onClick: this.handleClick })
             );
         }
     }]);
 
     return Main;
 }(_react2.default.Component);
-
-//what should I return? 
-
 
 var mapStateToProps = function mapStateToProps(state) {
     return {

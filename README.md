@@ -35,7 +35,8 @@ npm start
 ```
          
 ## Notes from Joan    
-:arrow_right_hook: Very handy to enter a long URL to make tiny: https://tinyurl.com/create.php
+:arrow_right_hook: Very handy to enter a long URL to make tiny: https://tinyurl.com/create.php  
+:arrow_right_hook: How to use reducers properly? https://redux.js.org/recipes/structuring-reducers/structuring-reducers
 
     
 ## Heroku!!!
